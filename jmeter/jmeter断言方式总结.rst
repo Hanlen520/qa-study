@@ -10,13 +10,13 @@ Jmeter断言方式总结
 .. figure:: /_static/jmeter/j_1.png
     :width: 15.0cm
 
-**APPly to:适用范围：**
+APPly to:适用范围
 
 Main sample and sub-samples:主要样本和次级样本，Main sample only：仅主要样本，Sub-samples only:仅次级样本，JMeter Variable:jmeter变量(输入框内可输入jmeter的变量范围)；
 
-**要测试的响应字段：要检查的项：**
+要测试的响应字段：要检查的项
 
- 响应文本：服务器响应文本，一般普通http响应，都勾选这个
+响应文本：服务器响应文本，一般普通http响应，都勾选这个
 
 Documeng(text)：测试文件，一切Apache Tika 支持服务器响应，包括文本响应，还支持 PDF, Office, Audio, Video，formats。jmeter会用Apache Tika
 
@@ -25,14 +25,13 @@ URL样本：对样板的url进行断言。如果请求没有重定向（302）�
 
 响应代码：http status的断言，如200，404，500等。
 
-响应信息：http响应代码对应的响应信息，如：HTTP/1.1 200 Ok。
+响应信息：http响应代码对应的响应信息，如：HTTP/1.1 200 Ok，HTTP/1.2 Found中的OK，Found
 
 Response Headers:响应头部，如Content-Type: text/html。
 
 Ignore status：忽略返回的响应报文状态码。
 
 **模式匹配规则：**
-
 包括：返回结果包括你指定的内容，支持正则匹配。
 
 匹配： 　
@@ -55,7 +54,7 @@ Substring：返回结果包括你指定的内容，不支持正则匹配；否�
 
 APPly to:适用范围
 
-Main sample and sub-samples:主要样本和次	级样本
+Main sample and sub-samples:主要样本和次级样本
 
 Main sample only：仅主要样本
 
